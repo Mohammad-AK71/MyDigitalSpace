@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.headerBox {
+    background-color:#3465a4 ; 
+    height: 11vh; 
+    padding: 1vw;
+    display: flex; 
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.box { 
+    background-color: #729fcf;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    padding: .4vw;
+    height: 9vh;
+    align-items: center; 
+}
+.box .title {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+.box .navbar {
+    width: 56vw;
+}
+.box ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+.main {
+    background-color: #dee6ef;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    align-content: center; 
+}
+.Intro h1 {
+    font-family:  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:#161cff ; 
+    padding-top: 5vh;
+    font-size: 3rem;
+}
+.Intro p {
+    font-family:  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:#000000 ;  
+    font-size: 1.5rem;
+}
+.Welcome {
+    color: black;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.4rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.section1 {
+    width: 84vw;
+    height: 18vh;
+    margin: 2vw;
+    background-color: #5983b0;
+    border-radius: 15px;
+    padding: 11px 1vw 11px 1vw;
+    box-sizing: border-box; 
+}
+h2 {
+    text-align: center;
+    color: rgb(5, 1, 21); 
+}
+.more , button{
+    background-color: #044ebc;
+    height: 25px;
+    width: 50px;
+} 
+button a {
+    color: white;
+}
+.section2 {
+    width: 84vw;
+    height: 18vh;
+    margin: 2vw;
+    background-color: #5983b0;
+    border-radius: 15px;
+    padding: 11px 1vw 11px 1vw;
+    box-sizing: border-box; 
+}
+.section3 {
+    width: 84vw;
+    height: 20vh;
+    margin: 2vw;
+    background-color: #5983b0;
+    border-radius: 15px;
+    padding: 11px 1vw 11px 1vw;
+    box-sizing: border-box; 
+}
+.section4 {
+    width: 84vw;
+    height: 20vh;
+    margin: 2vw;
+    background-color: #5983b0;
+    border-radius: 15px;
+    padding: 11px 1vw 11px 1vw;
+    box-sizing: border-box; 
+}
+#Feedback{ 
+    width: 9vw;
+    position: fixed; 
+    background-color: #3465a4;
+    color: white;
+    bottom: 55px;
+    right: 3vh;
+    border-radius: 30px;
+    height: 6vh;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    stroke: none;
+    border: 2px solid blue;
+}
+
+Footer {
+    background-color: black;
+    color: white;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .text {
+    text-align: center;    
+}

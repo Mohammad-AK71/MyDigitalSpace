@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+.headerBox {
+    background-color: #3465a4;
+    height: 11vh;
+    padding: 1vw;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #729fcf;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    padding: .4vw;
+    height: 9vh;
+    align-items: center;
+}
+
+.box .title {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
+.box .navbar {
+    width: 56vw;
+}
+
+.box ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.main {
+    background-color: #dee6ef;
+    align-items: center;
+    height: 100vh;
+}
+
+.MyProjects {
+    margin: 2vw;
+    height: 42vh;
+    padding: 1vh;
+    background-color: #729fcf;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+
+.MyProjectsHead {
+    height: 5vh;
+    margin-bottom: 22px;
+    font-size: 1.5rem;
+    color: rgb(5, 1, 21);
+}
+
+.myProjectBox {
+    background-color: #729fcf;
+    height: 30vh;
+    width: 90vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Project1st {
+    background-color: #ffffff;
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+
+.Project2nd {
+    background-color: #ffffff;
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+
+.Project3rd {
+    background-color: #ffffff;
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+
+.firstProject {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+.secondProject {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+.thirdProject {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+
+.ProjectImages {
+    width: 42vw;
+    height: 52vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstProjectLeft {
+    width: 50vw;
+    height: 60vh;
+}
+.secondProjectLeft {
+    width: 50vw;
+    height: 60vh;
+}
+.thirdProjectLeft {
+    width: 50vw;
+    height: 60vh;
+}
+
+.Projects {
+    margin: 0 4vw; 
+}
+
+.ProjectImages {
+    width: 42vw;
+    height: 52vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.ImagesLeft {
+    width: 31vw;
+    height: 52vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ImagesRight {
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ImagesLeft1 {
+    height: 40vh;
+    width: 30vw;
+    border: 2px solid black;
+    background-image: url(Images/Screenshot\ 2026-10-06\ 102031.png);
+    background: ;
+}
+.ImagesLeft2 {
+    height: 10vh;
+    width: 30vw;
+    border: 2px solid black;
+}
+.ImagesRight1 {
+    height: 40vh;
+    width: 10vw;
+    border: 2px solid black;
+}
+.ImagesRight2 {
+    height: 10vh;
+    width: 10vw;
+    border: 2px solid black ;
+}
+Footer {
+    background-color: black;
+    color: white;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    text-align: center;
+}

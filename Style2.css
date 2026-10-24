@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.headerBox {
+    background-color: #3465a4;
+    height: 11vh;
+    padding: 1vw;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box {
+    background-color: #729fcf;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    padding: .4vw;
+    height: 9vh;
+    align-items: center;
+}
+
+.box .title {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
+.box .navbar {
+    width: 56vw;
+}
+
+.box ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.main {
+    background-color: #dee6ef;
+    align-items: center;
+    height: 100vh;
+}
+
+.main .aboutMe {
+    height: 40vh;
+
+}
+
+.main .aboutMe h1 {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #161cff;  
+    padding-top: 5vh;
+    font-size: 3rem;
+}
+.aboutMe p {
+    margin: 0 5vw;
+}
+.skills {
+    margin: 2vw;
+    height: 42vh;
+    padding: 1vh;
+    background-color: #729fcf;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+.skillsHead{
+    height: 5vh;
+    margin-bottom: 22px;
+    font-size: 1.5rem;
+    color: rgb(5, 1, 21);
+}
+.skills .skillsBox { 
+    background-color: #729fcf; 
+    height: 30vh;
+    width: 90vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.html {
+    background-color: #ffffff; 
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+.css {
+    background-color: #ffffff; 
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+.JavaScript{
+    background-color: #ffffff; 
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    border: 2px solid #02254b;
+}
+Footer {
+    background-color: black;
+    color: white;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .text {
+    text-align: center;    
+}
