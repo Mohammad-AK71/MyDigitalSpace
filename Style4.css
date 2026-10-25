@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -11,15 +12,16 @@ header {
 }
 
 .headerBox {
-    background-color:#3465a4 ; 
-    height: 11vh; 
+    background-color: #3465a4;
+    height: 11vh;
     padding: 1vw;
-    display: flex; 
+    display: flex;
     color: white;
     justify-content: center;
     align-items: center;
 }
-.box { 
+
+.box {
     background-color: #729fcf;
     color: white;
     border-radius: 7px;
@@ -28,27 +30,33 @@ header {
     width: 98vw;
     padding: .4vw;
     height: 9vh;
-    align-items: center; 
+    align-items: center;
 }
+
 .box .title {
     width: 40vw;
     font-size: 1.5rem;
 }
+
 .box .navbar {
     width: 56vw;
 }
+
 .box ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .navbar ul li a {
     color: white;
     font-size: 1.4rem;
-} 
+}
+
 main {
     background-color: #dee6ef;
 }
+
 main h1 {
     color: black;
     text-align: center;
@@ -56,14 +64,20 @@ main h1 {
     margin-top: 0;
     padding-top: 15px;
 }
+
 .box1 {
     height: 50vh;
     margin: 5vw;
-    margin-top: 0;
     background-color: white;
     border-radius: 25px;
     border: 2px solid #02254b;
 }
+
+p {
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
 .box2 {
     height: 50vh;
     margin: 5vw;
@@ -71,6 +85,7 @@ main h1 {
     border-radius: 25px;
     border: 2px solid #02254b;
 }
+
 .box3 {
     height: 50vh;
     margin: 5vw;
@@ -78,6 +93,7 @@ main h1 {
     border-radius: 25px;
     border: 2px solid #02254b;
 }
+
 Footer {
     background-color: black;
     color: white;
@@ -86,6 +102,7 @@ Footer {
     justify-content: center;
     align-items: center;
 }
+
 .footer .text {
-    text-align: center;    
+    text-align: center;
 }
